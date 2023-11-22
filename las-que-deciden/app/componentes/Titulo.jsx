@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 import Image from 'next/image'
 
 export default function Titulo() {
@@ -17,6 +15,3 @@ return(
     </div>
 )
 }
-
-
->>>>>>> Stashed changes

@@ -26,10 +26,3 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.parallax-background {
-  height: 440px; 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

@@ -5,7 +5,7 @@ import Titulo from '@/app/componentes/Titulo.jsx';
 import Estadistica from '@/app/componentes/Estadistica.jsx';
 import Ultimos from '@/app/componentes/Ultimos.jsx';
 import Timeline from '@/app/componentes/Timeline.jsx';
-
+import Congreso from '@/app/componentes/Congreso.jsx';
 const Home = () => {
   return (
     <motion.main 
@@ -55,6 +55,15 @@ const Home = () => {
       >
         <Timeline />
       </motion.div>
+      <motion.div 
+        className="mt-5 pt-2 px-24 pb-0 mb-0"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Congreso />
+      </motion.div>
+
     </motion.main>
   );
 };
