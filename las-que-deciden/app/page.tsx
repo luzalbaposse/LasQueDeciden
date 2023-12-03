@@ -6,11 +6,14 @@ import Estadistica from '@/app/componentes/Estadistica.jsx';
 import Ultimos from '@/app/componentes/Ultimos.jsx';
 import Timeline from '@/app/componentes/Timeline.jsx';
 import Congreso from '@/app/componentes/Congreso.jsx';
-
+import Derechos from '@/app/componentes/Derechos.jsx';
+import Actualidad from '@/app/componentes/Actualidad.jsx';
+import NoEstamos from '@/app/componentes/NoEstamos.jsx';
+import CTA from '@/app/componentes/CTA.jsx';
 function Home() {
   return (
     <motion.main
-      className="flex min-h-screen bg-white flex-col items-center justify-between"
+      className="flex min-h-screen bg-white flex-col items-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -62,6 +65,38 @@ function Home() {
         transition={{ delay: 0.2 }}
       >
         <Congreso />
+      </motion.div>
+      <motion.div
+        className="mt-5 pt-2 px-24 pb-0 mb-0"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Derechos />
+      </motion.div>
+      <motion.div
+        className="mt-5 pt-2 px-24 pb-0 mb-0"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <Actualidad />
+      </motion.div>
+      <motion.div
+        className="mt-5 pt-2 px-24 pb-0 mb-0"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <NoEstamos />
+      </motion.div>
+      <motion.div
+        className="mt-5 pt-2 px-24 pb-0 mb-0"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.2 }}
+      >
+        <CTA />
       </motion.div>
 
     </motion.main>

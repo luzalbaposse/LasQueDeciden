@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Titulo() {
 return(
-    <div className='flex min-h-screen flex-col items-center justify-between pt-2 px-24'>
+    <div className='flex flex-col items-center pt-2 px-24'>
     <div className='flex flex-col items-center justify-center gap-2.5'>
     <Image 
         src='/Título.svg' 

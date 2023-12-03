@@ -1,0 +1,14 @@
+{
+    "countryName": "Argentina",
+    "years": [1990, 2020],
+    "widths": [
+      { "year": 1990, "width": 30 },
+      { "year": 2020, "width": 40 }
+    ],
+    "images": [
+      { "year": 1990, "url": "path/to/image1.jpg" },
+      { "year": 2020, "url": "path/to/image2.jpg" }
+    ],
+    "initialWidth": 30
+  }
+  
