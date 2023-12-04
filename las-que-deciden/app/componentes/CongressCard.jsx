@@ -28,9 +28,9 @@ const CongressCard = ({ countryData }) => {
   const handleMouseLeave = () => setShowTooltip(false);
 
   return (
-    <div className="p-6 flex flex-col items-center bg-white text-center overflow-hidden p-4">
+    <div className="max-w-xs p-6 flex flex-col items-center bg-white text-center overflow-hidden p-4">
       <select
-        className="mb-2 p-2 border border-red-600 ml-[-400px] text-red-600 font-light"
+        className="mb-2 p-2 border border-red-600 ml-[-200px] text-red-600 font-light"
         value={selectedYear}
         onChange={handleYearChange}
       >

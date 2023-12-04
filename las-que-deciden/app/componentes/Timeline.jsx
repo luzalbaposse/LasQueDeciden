@@ -40,8 +40,8 @@ export default function Timeline() {
         <div className="mb-10 flex justify-center" ref={ref1970}>
         <Image
           src={getImageSrc(ref1970, '/milNueveSetentaStatic.svg', '/milNueveSetenta.png')}
-          alt='timeline-1970'
-          width={800} 
+          alt='timeline'
+          width={1318} 
           height={440} 
         />
       </div>
@@ -59,15 +59,15 @@ export default function Timeline() {
             <Image
               src={getImageSrc(ref1980, '/milNueveOchentaStatic.svg', '/milNueveOchenta.png')}
               alt='timeline-1980'
-              width={800} 
+              width={1318} 
               height={440} 
             />
           </div>
-        <div className="mt-[-390px] w-full h-full flex ml-[60px] justify-center items-center">
+        <div className="mt-[-480px] w-full h-full flex ml-[70px] justify-center items-center">
           <Image
             src='/Alfonsin.png'
             alt='timeline'
-            width={400} 
+            width={500} 
             height={605}
           />
           </div>
@@ -75,7 +75,7 @@ export default function Timeline() {
           <Image
             src='/AlfonsinAsume.png'
             alt='timeline'
-            width={400} 
+            width={450} 
             height={605}
           />
              </div>
@@ -85,15 +85,15 @@ export default function Timeline() {
             <Image
               src={getImageSrc(ref1990, '/milNueveNoventaStatic.svg', '/milNueveNoventa.png')}
               alt='timeline-1990'
-              width={800} 
+              width={1318} 
               height={440} 
             />
           </div>
-        <div className="mt-[-335px] w-full h-full flex justify-center items-center">
+        <div className="mt-[-380px] w-full h-full flex justify-center items-center">
           <Image
             src='/Hugo.png'
             alt='timeline'
-            width={440} 
+            width={500} 
             height={484}
           />
           </div>
@@ -101,7 +101,7 @@ export default function Timeline() {
           <Image
             src='/HugoAsume.png'
             alt='timeline'
-            width={350} 
+            width={360} 
             height={484}
           />
           </div>
@@ -109,7 +109,7 @@ export default function Timeline() {
       <div className="text-center text-black text-2xl font-light tracking-wide mb-8">Entre el 1970 y los 90’, Latinoamérica se vio combulsionada. De repente surgieron múltiples dictaduras cívico-militares, se recuperaron democracias y se comenzó a pensar en el continente que hoy conocemos.</div>
       <div className="max-w-full text-center text-red-600 text-5xl font-light leading-snug">LOS PROTAGONISTAS DE LA ÉPOCA, NO REPRESENTABAN MUCHA DIVERSIDAD</div>
       </div>
-      <div className="w-full h-full text-center text-black text-[40px] font-light">LO QUE SE VE DESDE LOS 90s</div>
+      <div className="flex justify-center items-center border-2 border-red-600 w-full mb-7 h-full text-center text-black text-[40px] font-light">LO QUE SE VE DESDE LOS 90s</div>
       <iframe 
         src='https://flo.uri.sh/visualisation/15598209/embed' 
         title='Jefa de Estado Mujer' 
