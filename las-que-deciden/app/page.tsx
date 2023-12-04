@@ -10,6 +10,7 @@ import Derechos from '@/app/componentes/Derechos.jsx';
 import Actualidad from '@/app/componentes/Actualidad.jsx';
 import NoEstamos from '@/app/componentes/NoEstamos.jsx';
 import CTA from '@/app/componentes/CTA.jsx';
+
 function Home() {
   return (
     <motion.main

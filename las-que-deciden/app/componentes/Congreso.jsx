@@ -1,11 +1,27 @@
+'use client';
+import Carousel from './Carrousel.jsx';
+import React, { useState, useEffect } from 'react';
+
 export default function Congreso(){
+    const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch('/data.json')
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .catch((error) => console.error('Error fetching data:', error));
+  }, []);
+
     return (
 <div className="max-w-full text-center text-red-600">
             
             <span className="text-2xl font-light leading-snug">Y SI NO SON JEFAS DE ESTADO, ¿DÓNDE ESTÁN?<br/></span>
             <span className="text-6xl font-bold leading-tight">LAS MUJERES EN EL CONGRESO</span>
             <div className="flex items-center justify-center h-screen">
-  <div className="text-center w-64 h-64 bg-gray-300">placeholder</div>
+  <div className="text-center w-full h-full">
+  <Carousel data={data} />
+
+  </div>
 </div>
 <div className="w-[1132px] h-[698px] text-left justify-center items-start gap-[50px] inline-flex">
     <div className="w-[530px] h-[698px] text-black text-2xl font-light tracking-wide">En las últimas décadas, la representación de mujeres en los congresos de varios países de América Latina ha experimentado notables transformaciones. En la década de 1990, los porcentajes de mujeres en el parlamento eran generalmente bajos, oscilando entre 5.6% y 36.9%. Estas cifras reflejaban un panorama donde las mujeres estaban subrepresentadas en la toma de decisiones políticas.<br/> <br/><br/>Sin embargo, al llegar al año 2022, se evidencian avances significativos en la inclusión de mujeres en la política de la región. Los porcentajes actuales varían entre 17.5% y 50.0%, reflejando un progreso sustancial en la representación femenina en comparación con la década de 1990. </div>

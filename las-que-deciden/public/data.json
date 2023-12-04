@@ -1,14 +1,223 @@
-{
+[
+  {
     "countryName": "Argentina",
-    "years": [1990, 2020],
+    "years": [1990, 2022],
     "widths": [
-      { "year": 1990, "width": 30 },
-      { "year": 2020, "width": 40 }
+      { "year": 1990, "width": 6.3 },
+      { "year": 2022, "width": 44.8 }
     ],
     "images": [
-      { "year": 1990, "url": "path/to/image1.jpg" },
-      { "year": 2020, "url": "path/to/image2.jpg" }
+      { "year": 1990, "url": "/ArgentinaCong.png" },
+      { "year": 2022, "url": "/ArgentinaCong.png" }
     ],
-    "initialWidth": 30
+    "initialWidth": 6.3
+  },
+  {
+    "countryName": "Bolivia",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 9.2 },
+      { "year": 2022, "width": 46.15 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/bolivia-1990.jpg" },
+      { "year": 2022, "url": "/images/bolivia-2022.jpg" }
+    ],
+    "initialWidth": 9.2
+  },
+  {
+    "countryName": "Chile",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 5.8 },
+      { "year": 2022, "width": 35.5 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 5.8
+  },
+  {
+    "countryName": "Colombia",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 8.5 },
+      { "year": 2022, "width": 28.9 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 8.5
+  },
+  {
+    "countryName": "Costa Rica",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 12.3 },
+      { "year": 2022, "width": 47.4 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 12.3
+  },
+  {
+    "countryName": "Cuba",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 33.9 },
+      { "year": 2022, "width": 53.4 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 33.9
+  },
+  {
+    "countryName": "Ecuador",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 7.5 },
+      { "year": 2022, "width": 38.7 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 7.5
+  },
+  {
+    "countryName": "El Salvador",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 11.7 },
+      { "year": 2022, "width": 27.4 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 11.7
+  },
+  {
+    "countryName": "Guatemala",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 5.2 },
+      { "year": 2022, "width": 19.4 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 5.2
+  },
+  {
+    "countryName": "Honduras",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 10.2 },
+      { "year": 2022, "width": 27.3 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 10.2
+  },
+  {
+    "countryName": "Mexico",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 12 },
+      { "year": 2022, "width": 50 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 12
+  },
+  {
+    "countryName": "Nicaragua",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 16.3 },
+      { "year": 2022, "width": 51.7 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 16.3
+  },
+  {
+    "countryName": "Panamá",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 7.5 },
+      { "year": 2022, "width": 22.5 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 7.5
+  },
+  {
+    "countryName": "Paraguay",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 5.6 },
+      { "year": 2022, "width": 17.5 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 5.6
+  },
+  {
+    "countryName": "Peru",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 6.7 },
+      { "year": 2022, "width": 40 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 6.7
+  },
+  {
+    "countryName": "Uruguay",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 6.1 },
+      { "year": 2022, "width": 25.3 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 6.1
+  },
+  {
+    "countryName": "Venezuela",
+    "years": [1990, 2022],
+    "widths": [
+      { "year": 1990, "width": 10 },
+      { "year": 2022, "width": 22 }
+    ],
+    "images": [
+      { "year": 1990, "url": "/images/brasil-1990.jpg" },
+      { "year": 2022, "url": "/images/brasil-2022.jpg" }
+    ],
+    "initialWidth": 10
   }
-  
+]
