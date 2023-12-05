@@ -1,5 +1,5 @@
 'use client'
-import { motion } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
 import Image from 'next/image';
 import Titulo from '@/app/componentes/Titulo.jsx';
 import Estadistica from '@/app/componentes/Estadistica.jsx';
@@ -12,6 +12,7 @@ import NoEstamos from '@/app/componentes/NoEstamos.jsx';
 import CTA from '@/app/componentes/CTA.jsx';
 
 function Home() {
+  const { scrollYProgress } = useScroll();
   return (
     <motion.main
       className="flex w-full min-h-screen bg-white flex-col items-center"
@@ -19,6 +20,8 @@ function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
+    <motion.div style={{ scaleX: scrollYProgress, transformOrigin: '0% 0%' }} className="fixed top-0 left-0 w-full h-4 bg-red-600 z-50" />
+
       <motion.div
         className="pt-2 px-24 pb-0 mb-0"
         initial={{ y: -20, opacity: 0 }}
