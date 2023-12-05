@@ -39,7 +39,7 @@ export default function Timeline() {
         {/* 1970 */}
         <div className="mb-10 flex justify-center" ref={ref1970}>
         <Image
-          src={getImageSrc(ref1970, '/MilNueveSetentaStatic.svg', '/MilNueveSetenta.png')}
+          src={getImageSrc(ref1970, '/SetentaStatico.png', '/MilNueveSetenta.png')}
           alt='timeline'
           width={1318} 
           height={440} 
@@ -57,7 +57,7 @@ export default function Timeline() {
           {/* 1980 */}
           <div className="mb-10 flex justify-center" ref={ref1980}>
             <Image
-              src={getImageSrc(ref1980, '/MilNueveOchentaStatic.svg', '/MilNueveOchenta.png')}
+              src={getImageSrc(ref1980, '/MilNueveOchentaStatic.png', '/MilNueveOchenta.png')}
               alt='timeline-1980'
               width={1318} 
               height={440} 
