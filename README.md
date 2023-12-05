@@ -21,7 +21,7 @@ Para el procesamiento de datos, usé Python, como se evidencia en el notebook di
 Si las timelines aparecen estáticas en el sitio deployado en Vercel, recomiendo correr localmente el proyecto (Estoy solucionando este problema en Vercel).
 Deberías ver algo así:
 
-![Animacion](https://s5.gifyu.com/images/Six3S.gif)
+[Animacion](https://s5.gifyu.com/images/Six3S.gif)
 
 Para hacerlo, necesitás tener node instalado. Una vez que lo tengas, corres:
 
