@@ -39,7 +39,7 @@ export default function Timeline() {
         {/* 1970 */}
         <div className="mb-10 flex justify-center" ref={ref1970}>
         <Image
-          src={getImageSrc(ref1970, '/milNueveSetentaStatic.svg', '/milNueveSetenta.png')}
+          src={getImageSrc(ref1970, '/MilNueveSetentaStatic.svg', '/MilNueveSetenta.png')}
           alt='timeline'
           width={1318} 
           height={440} 
@@ -57,7 +57,7 @@ export default function Timeline() {
           {/* 1980 */}
           <div className="mb-10 flex justify-center" ref={ref1980}>
             <Image
-              src={getImageSrc(ref1980, '/milNueveOchentaStatic.svg', '/milNueveOchenta.png')}
+              src={getImageSrc(ref1980, '/MilNueveOchentaStatic.svg', '/MilNueveOchenta.png')}
               alt='timeline-1980'
               width={1318} 
               height={440} 
@@ -83,7 +83,7 @@ export default function Timeline() {
           <div className="mt-[50px] mb-[50px]"></div>
           <div className="mb-10 flex justify-center" ref={ref1990}>
             <Image
-              src={getImageSrc(ref1990, '/milNueveNoventaStatic.svg', '/milNueveNoventa.png')}
+              src={getImageSrc(ref1990, '/MilNueveNoventaStatic.svg', '/MilNueveNoventa.png')}
               alt='timeline-1990'
               width={1318} 
               height={440} 
@@ -110,6 +110,7 @@ export default function Timeline() {
       <div className="max-w-full text-center text-red-600 text-5xl font-light leading-snug">LOS PROTAGONISTAS DE LA ÉPOCA, NO REPRESENTABAN MUCHA DIVERSIDAD</div>
       </div>
       <div className="flex justify-center items-center border-2 border-red-600 w-full mb-7 h-full text-center text-black text-[40px] font-light">LO QUE SE VE DESDE LOS 90s</div>
+      
       <iframe 
         src='https://flo.uri.sh/visualisation/15598209/embed' 
         title='Jefa de Estado Mujer' 
@@ -119,9 +120,11 @@ export default function Timeline() {
         style={{ width: '100%', height: '600px' }} 
         sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'
       ></iframe>
-      <div className="w-[1132px] h-[369px] justify-center items-start gap-[50px] inline-flex">
-    <div className="w-[530px] h-[369px] text-black text-2xl font-light tracking-wide">La evolución de mujeres en roles de liderazgo en América Latina, específicamente en la posición de Jefa de Estado entre 1990 y 2022, revela una transformación significativa en la última década. A partir de 2007, Argentina, Chile, Nicaragua y Panamá se han destacado al tener mujeres en esta posición, siendo Argentina especialmente notable por mantener este liderazgo femenino de manera continua. </div>
+<div className="flex justify-center">
+  <div className="w-[1132px] h-[369px] justify-center items-start gap-[50px] inline-flex">
+       <div className="w-[530px] h-[369px] text-black text-2xl font-light tracking-wide">La evolución de mujeres en roles de liderazgo en América Latina, específicamente en la posición de Jefa de Estado entre 1990 y 2022, revela una transformación significativa en la última década. A partir de 2007, Argentina, Chile, Nicaragua y Panamá se han destacado al tener mujeres en esta posición, siendo Argentina especialmente notable por mantener este liderazgo femenino de manera continua. </div>
     <div className="w-[530px] h-[246px] text-black text-2xl font-light tracking-wide">Sin embargo, la ausencia de mujeres en este rol en otras naciones indica una disparidad persistente en la región. Estos datos reflejan no solo avances, sino también la necesidad de un mayor impulso hacia la equidad de género en la esfera política de América Latina.</div>
+</div>
 </div>
     </>
   );

@@ -14,7 +14,7 @@ import CTA from '@/app/componentes/CTA.jsx';
 function Home() {
   return (
     <motion.main
-      className="flex min-h-screen bg-white flex-col items-center"
+      className="flex w-full min-h-screen bg-white flex-col items-center"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
