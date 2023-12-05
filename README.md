@@ -19,6 +19,9 @@ Para el procesamiento de datos, usé Python, como se evidencia en el notebook di
 
 ## Troubleshutting - Animaciones
 Si las timelines aparecen estáticas en el sitio deployado en Vercel, recomiendo correr localmente el proyecto (Estoy solucionando este problema en Vercel).
+Deberías ver algo así:
+![Animación de la web](./gififi.gif)
+
 Para hacerlo, necesitás tener node instalado. Una vez que lo tengas, corres:
 
 ```
