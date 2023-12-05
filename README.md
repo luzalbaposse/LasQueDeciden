@@ -17,3 +17,17 @@ En cuanto a la creación de gráficos,usé Flourish, una herramienta que facilit
 Para el procesamiento de datos, usé Python, como se evidencia en el notebook disponible en el repositorio.
 
 
+## Troubleshutting - Animaciones
+Si las timelines aparecen estáticas en el sitio deployado en Vercel, recomiendo correr localmente el proyecto (Estoy solucionando este problema en Vercel).
+Para hacerlo, necesitás tener node instalado. Una vez que lo tengas, corres:
+
+```
+npm install next
+```
+Importante: chequeá las dependencias!
+Si ya instalaste todo, con correr:
+
+```
+npm run dev
+```
+Ya deberías poder ver el proyecto en localhost:3000
